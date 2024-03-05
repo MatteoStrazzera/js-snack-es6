@@ -67,3 +67,9 @@ const animalsList = [
 ];
 
 console.log(animalsList);
+
+// Crea un nuovo array con la lista dei mammiferi utilizzando il metodo .filter()
+
+const mammiferiList = animalsList.filter(animal => animal.classe === 'Mammiferi');
+
+console.log(mammiferiList);
