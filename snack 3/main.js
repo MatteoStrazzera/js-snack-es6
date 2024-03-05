@@ -73,3 +73,10 @@ console.log(animalsList);
 const mammiferiList = animalsList.filter(animal => animal.classe === 'Mammiferi');
 
 console.log(mammiferiList);
+
+const otherAnimalsList = animalsList.filter((animals) => {
+
+  return animals.classe !== 'Mammiferi';
+});
+
+console.log(otherAnimalsList);
