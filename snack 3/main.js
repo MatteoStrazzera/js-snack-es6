@@ -12,3 +12,58 @@ Es:
 ]
 Crea un nuovo array con la lista dei mammiferi.
 */
+
+const animalsList = [
+  {
+    nome: "Leone",
+    famiglia: "Felidi",
+    classe: "Mammiferi"
+  },
+  {
+    nome: "Aquila Calva",
+    famiglia: "Accipitridi",
+    classe: "Uccelli"
+  },
+  {
+    nome: "Balena Azzurra",
+    famiglia: "Balaenopteridi",
+    classe: "Mammiferi"
+  },
+  {
+    nome: "Tartaruga Marina",
+    famiglia: "Cheloniidi",
+    classe: "Rettili"
+  },
+  {
+    nome: "Farfalla Monarca",
+    famiglia: "Ninfalidi",
+    classe: "Insetti"
+  },
+  {
+    nome: "Ghepardo",
+    famiglia: "Felidi",
+    classe: "Mammiferi"
+  },
+  {
+    nome: "Orca",
+    famiglia: "Delfinidi",
+    classe: "Mammiferi"
+  },
+  {
+    nome: "Ragno Saltatore",
+    famiglia: "Salticidi",
+    classe: "Ragni"
+  },
+  {
+    nome: "Delfino Narvalo",
+    famiglia: "Monodontidi",
+    classe: "Mammiferi"
+  },
+  {
+    nome: "Elefante Africano",
+    famiglia: "Elefanti",
+    classe: "Mammiferi"
+  }
+];
+
+console.log(animalsList);
