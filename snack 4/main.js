@@ -65,3 +65,20 @@ const peopleList = [
 console.log(peopleList);
 
 // Crea quindi un nuovo array inserendo, per ogni persona, una frase con il nome e cognome e l’indicazione se può guidare, in base all’età.
+
+// creo il nuovo array utilizzando il metodo .map() e le condizioni if / else
+
+const driverList = peopleList.map((person) => {
+    if (person.eta >= 18) {
+        
+        const phrase = `${person.nome} ${person.cognome} ha ${person.eta} anni quindi può guidare`
+
+        return phrase;
+    } else {
+        const phrase = `${person.nome} ${person.cognome} ha ${person.eta} anni quindi non può guidare`
+
+        return phrase;
+    }
+});
+
+console.log(driverList);
